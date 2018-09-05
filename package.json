@@ -8,14 +8,16 @@
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "ngPackage": {
-    "dest": "../../../dist/ngx-material",
+    "dest": "../../../dist/ngx-highlight",
     "lib": {
       "entryFile": "public-api.ts",
       "umdModuleIds": {}
     },
     "whitelistedNonPeerDependencies": []
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "highlight.js": "^9.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/petkit-io/ngx-highlight.git"
