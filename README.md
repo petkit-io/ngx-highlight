@@ -15,6 +15,23 @@ npm install --save @petkit/ngx-highlight highlight.js
 @import '~highlight.js/styles/default.css';
 ```
 
+Or add it to `angular.json` file
+
+```json
+...
+"architect": {
+  "build": {
+    "options": {
+      "styles": {
+        "src/styles.css",
+        "~highlight.js/styles/default.css"
+      }
+    }
+  }
+}
+...
+```
+
 ## Import Module
 
 ```ts
