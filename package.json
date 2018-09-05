@@ -1,6 +1,6 @@
 {
   "name": "@petkit/ngx-highlight",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "angular highlight component",
   "main": "index.js",
   "scripts": {
