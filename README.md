@@ -1,5 +1,5 @@
 # ngx-highlight
-angular highlight component
+Angular highlight component [demo](https://stackblitz.com/edit/angular-ngx-highlight)
 
 # Installation
 ```bash
