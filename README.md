@@ -51,4 +51,5 @@ import { NgxHighlightModule } from '@petkit/ngx-highlight';
 <ngx-highlight [code]="'<h1>code</h1>'" lang="html"></ngx-highlight>
 ```
 
-
+# License
+MIT
